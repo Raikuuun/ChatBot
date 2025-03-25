@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Hello", "Good day", "Is anyone there", "Hi there"],
+            "responses": ["Hello! How can I assist you today?", "Hi there, nice to chat with you!", "Hey! What's on your mind?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "I'm leaving", "Catch you later"],
+            "responses": ["Goodbye! Take care!", "See you later!", "Bye, have a great day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "Cheers"],
+            "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+        },
+        {
+            "tag": "about",
+            "patterns": ["What are you", "Who are you", "Tell me about yourself", "What's your purpose"],
+            "responses": ["I'm a chatbot built to assist and chat with you!", "I'm here to answer your questions and help out.", "I'm an AI designed to make your day better!"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Help", "I need help", "Can you assist me", "What can you do", "How do I use this"],
+            "responses": ["Sure, I'm here to help! What do you need?", "How can I assist you today?", "Ask me anything, and I'll do my best!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["How's the weather", "What's the weather like", "Tell me about the weather", "Is it sunny"],
+            "responses": ["I can't check the weather right now, but I'd guess it's nice where you are!", "Tell me your location, and I'll give you a fun weather guess!", "Weather's always better with a chatbot, right?"]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "Make me laugh", "Got any jokes", "Say something funny"],
+            "responses": ["Why don't skeletons fight each other? Because they don't have the guts!", "What do you call fake spaghetti? An impasta!", "I'm not great at math, but I can count on a good laugh!"]
+        },
+        {
+            "tag": "unknown",
+            "patterns": ["I don't know", "What?", "Huh", "Not sure"],
+            "responses": ["No worries, let's figure it out together!", "Hmm, want to try asking something else?", "I'm here to help—give me a clue!"]
+        }
+    ]
+}
